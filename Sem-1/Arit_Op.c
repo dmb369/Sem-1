@@ -1,9 +1,31 @@
-//Write a C program to find the distance traversed by an object with an initial velocity 'u' and moving with constant acceleration 'a' in time period 't'.
+// Write a C program to implement Arithmetic Operators.
+// Take two integers and find their sum, difference, product, Quotient and Remainder.
 
-#include<stdio.h>
-int main(){
-    int u,a,t,d;
-    scanf("%d %d %d",&u,&a,&t);
-    d=u*t+0.5*a*t*t;
-    printf("%d",d);
-}
+#include<stdio.h> 
+
+int main () 
+
+{ 
+
+    int a,b,sum,difference,product,quotient,remainder; 
+
+    scanf("%d%d",&a,&b); 
+
+    sum=a+b; 
+
+    difference=a-b; 
+
+    product=a*b; 
+
+    quotient=a/b; 
+
+    remainder=a%b; 
+
+    printf("%d %d %d %d %d",sum,difference,product,quotient,remainder); 
+
+} 
+
+ 
+
+ 
+
